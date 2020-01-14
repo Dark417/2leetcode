@@ -1,4 +1,10 @@
 import numpy as np
 
-a = np.random.rand()
+
+def atest():
+    global a
+    a = np.random.rand()
+    print('hello')
+
+atest()
 print(a)
