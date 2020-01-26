@@ -9,9 +9,12 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
             buff_dict[target - nums[i]] = i
 
 
-def main():
-    pass
 
+
+def main():
+    input = [2, 4, 7, 9, 11]
+
+    twoSum(input, 11)
 
 if __name__ == '__main__':
     main()
