@@ -39,10 +39,20 @@ print(returntuple())
 .list()
 #convert to list
 
+#delete
+clear() Remove all items: 
+pop() Remove an item by index and get its value: 
+remove() Remove an item by value: 
+del() Remove items by index or slice: 
+Remove multiple items that meet the condition: List comprehensions
+
 list.pop()
 #get the last one; remove it from the list
 
 list.index(item)
+list.reverse()
+list.insert(index, var)
+[::-1]
 #return index
 
 set()
@@ -52,12 +62,15 @@ res = [None] * size #create an empty [] of len(size)
 
 
 
+a = (i for i in b if i> 1)
+a = (i > 1 for i in b)
+
 ###################################################################
 #syntax
 x = 1 if 2>1 else 0
 x = x for x in y if x > 0
 
-
+l
 assert item in self._theItems, "The item must be in the bag."
 
 
@@ -68,8 +81,31 @@ print()
 dir(instance)
 # print all attributes' names
 
+id(obj)
 
+a = ['red', 'yellow', 'orange']
+print(a)
+# ba = sorted(a)
+b = a.sorted()
+print(b)
 
+b = ['grey', 'green', 'blue']
+sb = sorted(b)
+print(b)
+print(sb)
+
+a = [3,4,1]
+c = a.sort()
+c = sorted(a)
+
+#map
+map(func_, vars_)
+map(lambda x: x + x, numbers)
+map(lambda x, y: x + y, numbers1, numbers2)
+
+l = ['sat', 'bat', 'cat', 'mat']
+# map() can listify the list of strings individually
+test = list(map(list, l))
 
 ###################################################################
 #libs
@@ -87,22 +123,19 @@ from array import Array
 
 
 ###################################################################
-else
 
 
 
 
-x = 1 if 2>1 else 0
-x = x for x in y if x > 0
+for i, j in enumerate(nums):
+    print(i, j)
+
 
 
 
 a = ["1","2","5"]
 n1 = ord(a.pop())-ord('0')
 
-for i in range(5):
-    print(i)
-# 0 1 2 3 4
 
 
 #input domain, extreme cases
@@ -117,18 +150,39 @@ if not k:
 if k is None:
     print('rua')
 
-
 k = 0
 if not k:
     print('rua')
 
-
 if k is None:
 
+c = 1
+# check boolean
+if c:
+	print("yes")
+if not c:
+	print("yes")
+
+c = 1
+c = 0
+if c is not None:
+	print("yes")
+# both yes
+
+c = None
+if c is None:
+	print("yes")
+
+c = 3
+if c != 1:
+	print('yes')
+
+c = 3
+if c is not 3:
+	print('yes')
 
 
 def g(y):
-
 	print(x)
 	print(x + 1)
 x = 5
@@ -153,27 +207,44 @@ for i in range(len(L)):
 	a += L[i]
 print(a)
 
-a = ['red', 'yellow', 'orange']
-print(a)
-# ba = sorted(a)
-b = a.sorted()
-print(b)
-print(sa)
-print(ba)
+for i in range(5):
+	print(i)
+# 0 1 2 3 4
 
-b = ['grey', 'green', 'blue']
-sb = sorted(b)
-print(b)
-print(sb)
+a = [10, 2, 3, 4, 5]
 
-a = [3,4,1]
-c = a.sort()
-c = sorted(a)
+#print index
+print(*range(1, len(a)))
 
-print(a)
-print(c)
-# print(c)
-print(a)
+list = [*range(a[0], a[-1]), a[-1]]
+print (list)
+
+for i in a:
+	print(a.index(i))
+
+
+for x in [range(a[0], a[len(a)-1])]:
+	print(x)
+
+print(i for i in range(5))
+
+
+print(range(2, len(a), 1))
+b = [range(2, len(a))]
+
+for i in [range(2, len(a))]:
+	print(a[i])
+
+for i in range(len(a)):
+	print(a[i])
+for i in range(len(a), 7):
+	print(i)
+
+
+
+c = '123'
+if '12' in c:
+	print( 'true' )
 
 
 def mult(a, b):
@@ -189,9 +260,6 @@ print(x)
 
 a = [1,2]
 b = (1,2)
-c = '123'
-if '12' in c:
-	print( 'true' )
 
 d = (1, (2,3))
 print(d)
@@ -200,9 +268,9 @@ a = [1,2,3]
 if b is not None:
 	print('None')
 
-
-
-
+d = {}
+for i in xrange(4000000):
+	d[i] = None
 
 
 

@@ -1,1 +1,106 @@
 
+
+
+saw
+148. Sort List
+179. Largest Number
+242. Valid Anagram
+
+1356. Sort Integers by The Number of 1 Bits
+
+
+
+C sort
+164. Maximum Gap
+
+
+
+skipped
+
+
+
+
+attenpted
+
+
+
+
+unsolved
+
+
+747. Largest Number At Least Twice of Others
+219. Contains Duplicate II
+728. Self Dividing Numbers
+942. DI String Match
+
+
+
+
+
+
+
+
+solved
+C re
+977. Squares of a Sorted Array
+771. Jewels and Stones
+1295. Find Numbers with Even Number of Digits
+1217. Play with Chips
+
+Hash
+217. Contains Duplicate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
