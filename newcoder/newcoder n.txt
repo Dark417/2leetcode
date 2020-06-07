@@ -1,0 +1,93 @@
+Real
+kuaishou
+input
+desired data structure
+
+function
+
+output
+
+
+
+
+New Coder 剑指offer100
+
+#todo
+read them all!
+
+
+revisit
+03
+
+1
+Array[3]
+
+0101 二维数组中的查找
+1. bf
+2. bs #td
+3. stairs??
+
+0102 数组中重复的数字
+1. dict...
+2. anything new? swap??
+
+0103 构建乘积数组
+1.brute force
+2. dynamic programming
+
+
+2
+String[4]
+
+0201 替换空格
+
+0202 正则表达式?
+
+0203 表示数值的字符串?
+1. if...
+2. regexp !!!
+
+0204 字符流中第一个不重复的字符?
+
+
+3
+LinkedList[3]
+0301 反打印链表
+
+
+4
+Tree[8]
+0401 重建二叉树
+
+5
+StackQueue[2]
+
+
+6
+QuerySearch[1]
+
+
+7
+Recursion[4]
+0701
+
+
+
+10
+DynamicProgramming[1]
+1001CutRope
+1. recursion
+2. math?
+
+
+
+11BackTracing
+1101矩阵中的路径
+1. travel
+
+
+BitOperation[1]
+
+
+
+

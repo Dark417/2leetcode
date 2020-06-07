@@ -34,6 +34,14 @@ print(returntuple())
 
 
 ###################################################################
+#scope
+l = '123'
+x = [1, 2, 3]
+for i in range(len(l)):
+    x[i] = [i for i in l]
+print(x)
+
+###################################################################
 #datatypes
 #list
 .list()
@@ -55,7 +63,9 @@ list.insert(index, var)
 [::-1]
 #return index
 
-set()
+
+#
+set()		#return a set, rm duplicates
 range()
 
 res = [None] * size #create an empty [] of len(size)
@@ -273,6 +283,13 @@ for i in xrange(4000000):
 	d[i] = None
 
 
+assert element in self, "The element must be in the set."
+
+
+fun( *args):
+	# many...args
+
+def Set( self, *initElements = None)
 
 
 
