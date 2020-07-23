@@ -1,0 +1,31 @@
+2020.5.3
+Python心得
+
+
+#iteration
+for linear iteration
+	for i in iter
+
+for uncertain step iteration
+	while i
+		i += 2 / n
+
+
+iteration range
+	0 / 1 -> n / n + 1?
+
+
+
+
+#comparison marks
+	< / <= ?
+
+
+
+
+
+
+
+
+
+
